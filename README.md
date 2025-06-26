@@ -35,15 +35,15 @@ To use this theme, you have two options: manual installation or installation via
 
 ## Previews
 
-<p align="center"><a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/blue.png
+<p align="center"><a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/blue.png">
   <img alt="Blue theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/blue.png" width="35%"></a>
-  <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/purple.png
+  <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/purple.png">
   <img alt="Purple theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/purple.png" width="35%"></a>
-    <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/green.png
+    <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/green.png">
   <img alt="Green theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/green.png" width="35%"></a>
-      <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/red.png
+      <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/red.png">
   <img alt="Red theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/red.png" width="35%"></a>
-        <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/orange.png
+        <a href="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/orange.png">
   <img alt="Orange theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/orange.png" width="35%"></a>
 </p>
 
