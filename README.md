@@ -4,7 +4,8 @@
   <a href="https://github.com/Raznor09/raznor-obsidian/releases/latest" target="_blank"><img src="https://img.shields.io/github/v/release/Raznor09/raznor-obsidian?style=for-the-badge" alt="GitHub Release"></a>
   <a href="https://github.com/Raznor09/raznor-obsidian/releases" target="_blank"><img src="https://img.shields.io/github/downloads/Raznor09/raznor-obsidian/total?style=for-the-badge" alt="Total Downloads"></a>
 </p>
-A clean, all-black theme with multiple color variants, designed for a minimalist and modern look. This single file provides several pre-configured color options, including Blue, Purple, Green, and Red.
+- A clean, all-black theme with multiple color variants, designed for a minimalist and modern look.
+- This single file provides several pre-configured color options, including 🔵Blue, 🟣Purple, 🟢Green, 🔴Red and 🟠Orange.
 
 ## Installation
 
@@ -22,11 +23,11 @@ To use this theme, you have two options: manual installation or installation via
     ```
 4.  **Reload & Select:** Restart Home Assistant or reload your themes via Developer Tools > Services (`frontend.reload_themes`).
 5.  Then, go to your Profile page and select your preferred color variant from the Theme dropdown. The options are:
-    * 🔵 `Raznor Obsidian - Blue`
-    * 🟣 `Raznor Obsidian - Purple`
-    * 🟢 `Raznor Obsidian - Green`
-    * 🔴 `Raznor Obsidian - Red`
-    * 🟠 `Raznor Obsidian - Orange`
+    * 🔵 `Raznor Obsidian -` <font color="#53B3FF">Blue</font>
+    * 🟣 `Raznor Obsidian -` <font color="#7E1AB2">Purple</font>
+    * 🟢 `Raznor Obsidian -` <font color="#1AB21A">Green</font>
+    * 🔴 `Raznor Obsidian -` <font color="#FF1A1A">Red</font>
+    * 🟠 `Raznor Obsidian -` <font color="#FFB21A">Orange</font>
 
 ### Installation via HACS (Coming Soon)
 
