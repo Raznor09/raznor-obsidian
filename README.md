@@ -1,5 +1,9 @@
 # Raznor Obsidian Theme for Home Assistant
-
+<p align="left">
+  <a href="https://github.com/hacs/default" target="_blank"><img src="https://img.shields.io/badge/HACS-Default-21B4F0.svg?style=for-the-badge" alt="HACS Default"></a>
+  <a href="https://github.com/Raznor09/raznor-obsidian/releases/latest" target="_blank"><img src="https://img.shields.io/github/v/release/Raznor09/raznor-obsidian?style=for-the-badge" alt="GitHub Release"></a>
+  <a href="https://github.com/Raznor09/raznor-obsidian/releases" target="_blank"><img src="https://img.shields.io/github/downloads/Raznor09/raznor-obsidian/total?style=for-the-badge" alt="Total Downloads"></a>
+</p>
 A clean, all-black theme with multiple color variants, designed for a minimalist and modern look. This single file provides several pre-configured color options, including Blue, Purple, Green, and Red.
 
 ## Installation
