@@ -21,7 +21,12 @@ To use this theme, you have two options: manual installation or installation via
       themes: !include_dir_merge_named themes
     ```
 4.  **Reload & Select:** Restart Home Assistant or reload your themes via Developer Tools > Services (`frontend.reload_themes`).
-5.  Then, go to your Profile page and select `Raznor Obsidian - Blue`, `Raznor Obsidian - Purple`, `Raznor Obsidian - Green`,  `Raznor Obsidian - Red` or `Raznor Obsidian - Orange`, from the Theme dropdown.
+5.  Then, go to your Profile page and select your preferred color variant from the Theme dropdown. The options are:
+    * `Raznor Obsidian -` <font color="#53B3FF">Blue</font>
+    * `Raznor Obsidian -` <font color="#7E1AB2">Purple</font>
+    * `Raznor Obsidian -` <font color="#1AB21A">Green</font>
+    * `Raznor Obsidian -` <font color="#FF1A1A">Red</font>
+    * `Raznor Obsidian -` <font color="#FFB21A">Orange</font>
 
 ### Installation via HACS (Coming Soon)
 
@@ -30,11 +35,11 @@ This theme is not yet available in HACS.
 ## Previews
 
 <p align="center">
-  <img alt="Blue theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/blue.png" width="25%">
-  <img alt="Purple theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/purple.png" width="25%">
-  <img alt="Green theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/green.png" width="25%">
-  <img alt="Red theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/red.png" width="25%">
-  <img alt="Orange theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/orange.png" width="25%">
+  <img alt="Blue theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/blue.png" width="20%">
+  <img alt="Purple theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/purple.png" width="20%">
+  <img alt="Green theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/green.png" width="20%">
+  <img alt="Red theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/red.png" width="20%">
+  <img alt="Orange theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/orange.png" width="20%">
 </p>
 
 ## License
