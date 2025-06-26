@@ -120,13 +120,13 @@ Raznor Obsidian - Blue:
   # Inherit all settings from the base
   <<: *base_settings
 
-  # Define the unique blue accent colors here
+  # Color
   primary-color: rgb(83, 179, 255)
   accent-color: var(--primary-color)
   rgb-primary-color: '83, 179, 255'
   rgb-accent-color: '83, 179, 255'
 
-  # Define all elements that use the primary color here
+  # Elements
   app-header-selection-bar-color: var(--primary-color)
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
@@ -144,13 +144,13 @@ Raznor Obsidian - Purple:
   # Inherit all settings from the base
   <<: *base_settings
 
-  # Define the unique purple accent colors here
+  # Color
   primary-color: rgb(126, 26, 178)
   accent-color: var(--primary-color)
   rgb-primary-color: '126, 26, 178'
   rgb-accent-color: '126, 26, 178'
 
-  # Define all elements that use the primary color here
+  # Elements
   app-header-selection-bar-color: var(--primary-color)
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
@@ -168,13 +168,13 @@ Raznor Obsidian - Green:
   # Inherit all settings from the base
   <<: *base_settings
 
-  # Define the unique green accent colors here
+  # Color
   primary-color: rgb(26, 178, 26)
   accent-color: var(--primary-color)
   rgb-primary-color: '26, 178, 26'
   rgb-accent-color: '26, 178, 26'
 
-  # Define all elements that use the primary color here
+  # Elements
   app-header-selection-bar-color: var(--primary-color)
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
@@ -191,13 +191,13 @@ Raznor Obsidian - Red:
   # Inherit all settings from the base
   <<: *base_settings
 
-  # Define the unique red accent colors here
+  # Color
   primary-color: rgb(278, 26, 26)
   accent-color: var(--primary-color)
   rgb-primary-color: '278, 26, 26'
   rgb-accent-color: '278, 26, 26'
 
-  # Define all elements that use the primary color here
+  # Elements
   app-header-selection-bar-color: var(--primary-color)
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
@@ -205,6 +205,29 @@ Raznor Obsidian - Red:
   
   # Controls
   paper-slider-knob-color: rgb(178, 100, 100)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  switch-checked-button-color: var(--paper-slider-knob-color)
+  switch-checked-track-color: var(--paper-slider-knob-color)
+  
+  # --- Orange THEME ---
+Raznor Obsidian - Orange:
+  # Inherit all settings from the base
+  <<: *base_settings
+  
+  # Color
+  primary-color: rgb(278, 178, 26)
+  accent-color: var(--primary-color)
+  rgb-primary-color: '278, 178, 26'
+  rgb-accent-color: '278, 178, 26'
+
+  # Elements
+  app-header-selection-bar-color: var(--primary-color)
+  sidebar-selected-icon-color: var(--primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  state-icon-active-color: var(--primary-color)
+  
+  # Controls
+  paper-slider-knob-color: rgb(278, 200, 126)
   paper-slider-active-color: var(--paper-slider-knob-color)
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
