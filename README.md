@@ -23,5 +23,15 @@ To use this theme, you have two options: manual installation or installation via
 
 This theme is not yet available in HACS.
 
+## Previews
+
+<p align="center">
+  <img alt="Blue theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/blue.png" width="45%">
+  <img alt="Purple theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/purple.png" width="45%">
+  <img alt="Green theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/green.png" width="45%">
+  <img alt="Red theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/red.png" width="45%">
+  <img alt="Orange theme preview" src="https://raw.githubusercontent.com/Raznor09/raznor-obsidian/main/images/orange.png" width="45%">
+</p>
+
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
