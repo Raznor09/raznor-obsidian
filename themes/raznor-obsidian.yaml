@@ -10,7 +10,8 @@
   # and only override the accent colors and related settings.
   # =================================================================================
   
-base_settings: &base_settings
+_internal_settings:
+  base_settings: &base_settings
   # ============================
   # BASE COLORS & BACKGROUNDS
   # ============================
