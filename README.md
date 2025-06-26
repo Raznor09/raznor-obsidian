@@ -1,6 +1,6 @@
 # Raznor Obsidian Theme for Home Assistant
 
-A clean, all-black theme with blue accents, designed for a minimalist and modern look.
+A clean, all-black theme with multiple color variants, designed for a minimalist and modern look. This single file provides several pre-configured color options, including Blue, Purple, Green, and Red.
 
 ## Installation
 
@@ -16,7 +16,8 @@ To use this theme, you have two options: manual installation or installation via
     frontend:
       themes: !include_dir_merge_named themes
     ```
-4.  **Reload & Select:** Restart Home Assistant or reload your themes via Developer Tools > Services (`frontend.reload_themes`). Then, go to your Profile page and select `Raznor Obsidian` from the Theme dropdown.
+4.  **Reload & Select:** Restart Home Assistant or reload your themes via Developer Tools > Services (`frontend.reload_themes`).
+5.  Then, go to your Profile page and select `Raznor Obsidian - Blue`, `Raznor Obsidian - Purple`, `Raznor Obsidian - Green`,  `Raznor Obsidian - Red` or `Raznor Obsidian - Orange`, from the Theme dropdown.
 
 ### Installation via HACS (Coming Soon)
 
