@@ -1,4 +1,4 @@
-# Raznor Obsidian Theme for Home Assistant
+# Raznor Obsidian theme for Home Assistant
 <p align="left">
   <a href="https://github.com/hacs/default" target="_blank"><img src="https://img.shields.io/badge/HACS-Default-21B4F0.svg?style=for-the-badge" alt="HACS Default"></a>
   <a href="https://github.com/Raznor09/raznor-obsidian/releases/latest" target="_blank"><img src="https://img.shields.io/github/v/release/Raznor09/raznor-obsidian?style=for-the-badge" alt="GitHub Release"></a>
