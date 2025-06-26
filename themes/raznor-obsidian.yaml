@@ -132,20 +132,3 @@ Raznor Obsidian:
   rgb-accent-color: 83, 179, 255
   rgb-primary-text-color: 242, 242, 242
   
-  # Weather Icons
-  weather-icon-clear-night: url("/local/Wallpaper-HA/weather_icons/new/34.png")
-  weather-icon-cloudy: url("/local/Wallpaper-HA/weather_icons/new/05.png")
-  weather-icon-fog: url("/local/Wallpaper-HA/weather_icons/new/09.png")
-  weather-icon-lightning: url("/local/Wallpaper-HA/weather_icons/new/29.png")
-  weather-icon-lightning-rainy: url("/local/Wallpaper-HA/weather_icons/new/17.png")
-  weather-icon-partlycloudy: url("/local/Wallpaper-HA/weather_icons/new/04.png")
-  weather-icon-pouring: url("/local/Wallpaper-HA/weather_icons/new/12.png")
-  weather-icon-rainy: url("/local/Wallpaper-HA/weather_icons/new/18.png")
-  weather-icon-hail: url("/local/Wallpaper-HA/weather_icons/new/24.png")
-  weather-icon-snowy: url("/local/Wallpaper-HA/weather_icons/new/22.png")
-  weather-icon-snowy-rainy: url("/local/Wallpaper-HA/weather_icons/new/21.png")
-  weather-icon-sunny: url("/local/Wallpaper-HA/weather_icons/new/01.png")
-  weather-icon-windy: url("/local/Wallpaper-HA/weather_icons/windy.png")
-  weather-icon-windy-variant: url("/local/Wallpaper-HA/weather_icons/new/32.png")
-  weather-icon-heavy-intensity-rain: url("/local/Wallpaper-HA/weather_icons/new/12.png")
-  weather-icon-exceptional: url("/local/Wallpaper-HA/weather_icons/new/12.png")
