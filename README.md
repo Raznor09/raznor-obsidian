@@ -41,7 +41,7 @@ To use this theme, you have two options: manual installation or installation via
 
 ## Support the Project
 
-This integration is maintained with great pleasure. If you appreciate this integration and would like to support my work, please consider a small donation. Every contribution is highly valued!
+This theme is maintained with great pleasure. If you appreciate this theme and would like to support my work, please consider a small donation. Every contribution is highly valued!
 
 <a href="https://coff.ee/raznor09" target="_blank" rel="noreferrer noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" width="150px"></a>
 
