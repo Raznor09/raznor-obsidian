@@ -1,11 +1,13 @@
 Raznor Obsidian:
-
-# Theme      : raznor_obsidian.yaml
-# Project    : Home Assistant
-# Repository : https://github.com/Raznor09/raznor-obsidian
-# Author     : Raznor09
-# License    : CC BY-SA, https://creativecommons.org/licenses/by/4.0/
-# Description: A clean, all-black theme with blue accents.
+  # =================================================================================
+  # HEADER
+  # =================================================================================
+  # Theme       : raznor-obsidian.yaml
+  # Project     : Home Assistant
+  # Repository  : https://github.com/Raznor09/raznor-obsidian
+  # Author      : Raznor09
+  # License     : CC BY-SA, https://creativecommons.org/licenses/by/4.0/
+  # Description : A clean, all-black theme with blue accents.
 
   # =================================================================================
   # BASE COLORS
@@ -50,10 +52,10 @@ Raznor Obsidian:
   # CARDS & CARD ELEMENTS
   # =================================================================================
 
-  # Cards (Solid)
+  # Cards (Transparent)
   card-background-color: rgba(32, 33, 36, 0.3)
   ha-card-background: var(--card-background-color)
-  ha-card-border-color: rgba(42, 43, 46, 0.3)
+  ha-card-border-color: rgba(42, 43, 46, 0.5)
 
   # States, Icons and Badges inside cards
   state-icon-color: rgb(169, 177, 188) # Inactive/off-state
@@ -99,14 +101,16 @@ Raznor Obsidian:
   mdc-checkbox-unchecked-color: rgb(169, 177, 188)
   mdc-checkbox-disable-color: var(--disabled-text-color)
 
-  # Input Fields, Dropdowns & Menus (Solid)
-  input-background-color: rgb(42, 43, 46) # Base background color for all inputs
-  mdc-menu-background-color: var(--input-background-color)
-  mdc-menu-surface: var(--input-background-color)
-  paper-dialog-background-color: var(--input-background-color)
-  paper-listbox-background-color: var(--input-background-color)
-  input-fill-color: var(--input-background-color)
-  mdc-select-fill-color: var(--input-background-color)
+  # Input Fields, Dropdowns & Menus
+  mdc-theme-surface: var(--secondary-background-color) # Fallback surface color
+  material-background-color: rgb(32, 33, 36) # Base background for menus
+  material-secondary-background-color: rgb(42, 43, 46) # Hover color in menus
+  paper-dialog-background-color: var(--material-background-color)
+  paper-listbox-background-color: var(--material-background-color)
+  mdc-menu-background-color: var(--material-background-color)
+  mdc-menu-surface: var(--material-background-color)
+  input-fill-color: rgb(42, 43, 46) # Background for input fields themselves
+  mdc-select-fill-color: var(--input-fill-color)
   mdc-select-ink-color: var(--primary-text-color)
   mdc-select-label-ink-color: var(--secondary-text-color)
   mdc-select-idle-line-color: var(--secondary-text-color)
@@ -124,11 +128,10 @@ Raznor Obsidian:
   data-table-background-color: var(--primary-background-color)
 
   # Pre/Code
-  markdown-code-background-color: rgb(23, 23, 23)
-  code-editor-background-color: rgb(23, 23, 23)
+  markdown-code-background-color: rgb(10, 10, 10)
+  code-editor-background-color: rgb(10, 10, 10)
 
   # RGB (Corrected for components that need raw R,G,B values)
   rgb-primary-color: 83, 179, 255
   rgb-accent-color: 83, 179, 255
   rgb-primary-text-color: 242, 242, 242
-  
