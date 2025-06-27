@@ -1,6 +1,7 @@
 # Raznor Obsidian theme for Home Assistant
 <p align="left">
   <a href="https://github.com/hacs/default" target="_blank"><img src="https://img.shields.io/badge/HACS-Default-21B4F0.svg?style=for-the-badge" alt="HACS Default"></a>
+  <a href="https://github.com/Raznor09" target="_blank"><img src="https://img.shields.io/badge/GitHub-Raznor09-181717?style=for-the-badge&logo=github" alt="Raznor09 on GitHub"></a>
   <a href="https://github.com/Raznor09/raznor-obsidian/releases/latest" target="_blank"><img src="https://img.shields.io/github/v/release/Raznor09/raznor-obsidian?style=for-the-badge" alt="GitHub Release"></a>
   <a href="https://github.com/Raznor09/raznor-obsidian/releases" target="_blank"><img src="https://img.shields.io/github/downloads/Raznor09/raznor-obsidian/total?style=for-the-badge" alt="Total Downloads"></a>
   <a href="https://coff.ee/raznor09" target="_blank"><img src="https://img.shields.io/badge/COFFEE-8A2BE2?style=for-the-badge&label=BUY%20ME%20A" alt="Buy me a coffee"></a>
