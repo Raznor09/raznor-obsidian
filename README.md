@@ -36,6 +36,19 @@ To use this theme, you have two options: manual installation or installation via
 
 ---
 
+### Set Theme as Default for all Devices
+
+To apply the selected Raznor Obsidian theme as the default for all devices accessing your Home Assistant instance, follow these steps:
+
+1.  Open **Developer Tools** in Home Assistant.
+2.  Go to the **Actions** tab.
+3.  Search for `frontend.set_theme` (or "Set the default theme").
+4.  Under **Theme**, select your desired Raznor Obsidian theme (e.g., `Raznor Obsidian - Blue`).
+5.  The 'Mode' field is not required for this action.
+6.  Click on **Perform Action**.
+
+---
+
 ### Installation via HACS (Coming Soon)
 
 **This theme is not yet available in HACS.**
