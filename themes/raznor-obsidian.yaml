@@ -5,12 +5,12 @@
 # Description : A clean, all-black theme with blue accents.
 #
 # This file defines multiple theme variants using a single base.
-# Please note: 'base_settings' is NOT a selectable theme.
+# Please note: 'raznor_base_settings' is NOT a selectable theme.
 # It exclusively contains the common base settings that are inherited
 # and used by the other theme variants.
 # =================================================================================
 
-base_settings: &base_settings_anchor
+raznor_base_settings: &raznor_base_settings_anchor
   # ============================
   # BASE COLORS & BACKGROUNDS
   # ============================
@@ -118,7 +118,7 @@ base_settings: &base_settings_anchor
 # --- BLUE THEME ---
 Raznor Obsidian - Blue:
   # Inherit all settings from the base
-  <<: *base_settings_anchor
+  <<: *raznor_base_settings_anchor
 
   # Color
   primary-color: rgb(83, 179, 255)
@@ -142,7 +142,7 @@ Raznor Obsidian - Blue:
 # --- PURPLE THEME ---
 Raznor Obsidian - Purple:
   # Inherit all settings from the base
-  <<: *base_settings_anchor
+  <<: *raznor_base_settings_anchor
 
   # Color
   primary-color: rgb(126, 26, 178)
@@ -166,7 +166,7 @@ Raznor Obsidian - Purple:
 # --- GREEN THEME ---
 Raznor Obsidian - Green:
   # Inherit all settings from the base
-  <<: *base_settings_anchor
+  <<: *raznor_base_settings_anchor
 
   # Color
   primary-color: rgb(26, 178, 26)
@@ -189,7 +189,7 @@ Raznor Obsidian - Green:
 # --- RED THEME ---
 Raznor Obsidian - Red:
   # Inherit all settings from the base
-  <<: *base_settings_anchor
+  <<: *raznor_base_settings_anchor
 
   # Color
   primary-color: rgb(255, 26, 26)
@@ -212,7 +212,7 @@ Raznor Obsidian - Red:
 # --- Orange THEME ---
 Raznor Obsidian - Orange:
   # Inherit all settings from the base
-  <<: *base_settings_anchor
+  <<: *raznor_base_settings_anchor
 
   # Color
   primary-color: rgb(255, 178, 26)
