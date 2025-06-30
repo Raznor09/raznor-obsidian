@@ -14,7 +14,7 @@
   # ============================
   # BASE COLORS & BACKGROUNDS
   # ============================
-base_settings_anchor: &base_settings_anchor
+_base_settings_anchor: &base_settings_anchor
   primary-background-color: rgb(10, 10, 10)
   secondary-background-color: rgb(32, 33, 36)
   divider-color: var(--primary-background-color)
