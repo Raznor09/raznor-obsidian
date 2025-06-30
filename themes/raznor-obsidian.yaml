@@ -10,10 +10,11 @@
 # and only override the accent colors and related settings.
 # =================================================================================
 
-base_settings_anchor: &base_settings_anchor
+
   # ============================
   # BASE COLORS & BACKGROUNDS
   # ============================
+base_settings_anchor: &base_settings_anchor
   primary-background-color: rgb(10, 10, 10)
   secondary-background-color: rgb(32, 33, 36)
   divider-color: var(--primary-background-color)
@@ -186,16 +187,16 @@ Raznor Obsidian - Green:
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
 
-  # --- RED THEME ---
+# --- RED THEME ---
 Raznor Obsidian - Red:
   # Inherit all settings from the base
   <<: *base_settings_anchor
 
   # Color
-  primary-color: rgb(278, 26, 26)
+  primary-color: rgb(255, 26, 26)
   accent-color: var(--primary-color)
-  rgb-primary-color: '278, 26, 26'
-  rgb-accent-color: '278, 26, 26'
+  rgb-primary-color: '255, 26, 26'
+  rgb-accent-color: '255, 26, 26'
 
   # Elements
   app-header-selection-bar-color: var(--primary-color)
@@ -209,16 +210,16 @@ Raznor Obsidian - Red:
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
 
-  # --- Orange THEME ---
+# --- Orange THEME ---
 Raznor Obsidian - Orange:
   # Inherit all settings from the base
   <<: *base_settings_anchor
 
   # Color
-  primary-color: rgb(278, 178, 26)
+  primary-color: rgb(255, 178, 26)
   accent-color: var(--primary-color)
-  rgb-primary-color: '278, 178, 26'
-  rgb-accent-color: '278, 178, 26'
+  rgb-primary-color: '255, 178, 26'
+  rgb-accent-color: '255, 178, 26'
 
   # Elements
   app-header-selection-bar-color: var(--primary-color)
@@ -227,7 +228,7 @@ Raznor Obsidian - Orange:
   state-icon-active-color: var(--primary-color)
 
   # Controls
-  paper-slider-knob-color: rgb(278, 200, 126)
+  paper-slider-knob-color: rgb(255, 200, 126)
   paper-slider-active-color: var(--paper-slider-knob-color)
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
