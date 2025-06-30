@@ -5,16 +5,15 @@
 # Description : A clean, all-black theme with blue accents.
 #
 # This file defines multiple theme variants using a single base.
-# An 'anchor' (&base_settings) defines all shared settings.
-# Afterwards, separate themes are created that inherit this base
-# and only override the accent colors and related settings.
+# Please note: 'base_settings' is NOT a selectable theme.
+# It exclusively contains the common base settings that are inherited
+# and used by the other theme variants.
 # =================================================================================
 
-
+base_settings: &base_settings_anchor
   # ============================
   # BASE COLORS & BACKGROUNDS
   # ============================
-_base_settings_anchor: &base_settings_anchor
   primary-background-color: rgb(10, 10, 10)
   secondary-background-color: rgb(32, 33, 36)
   divider-color: var(--primary-background-color)
@@ -119,7 +118,7 @@ _base_settings_anchor: &base_settings_anchor
 # --- BLUE THEME ---
 Raznor Obsidian - Blue:
   # Inherit all settings from the base
-  <<: *base_settings_anchor # <-- HIER IS DE WIJZIGING: verwijzing naar het nieuwe anker
+  <<: *base_settings_anchor
 
   # Color
   primary-color: rgb(83, 179, 255)
