@@ -68,3 +68,9 @@ This theme is maintained with great pleasure. If you appreciate this theme and w
 
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+## Credits
+This theme is based on the [Google Theme by JuanMTech](https://github.com/JuanMTech/google-theme).
+All credits for the original integration go to [JuanMTech](https://github.com/JuanMTech).
