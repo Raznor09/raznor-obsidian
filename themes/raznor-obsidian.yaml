@@ -1,124 +1,126 @@
-  # =================================================================================
-  # Theme       : raznor-obsidian.yaml
-  # Author      : Raznor09
-  # Repository  : https://github.com/Raznor09/raznor-obsidian
-  # Description : A clean, all-black theme with blue accents.
-  #
-  # This file defines multiple theme variants using a single base.
-  # An 'anchor' (&base_settings) defines all shared settings.
-  # Afterwards, separate themes are created that inherit this base
-  # and only override the accent colors and related settings.
-  # =================================================================================
-  
+# =================================================================================
+# Theme       : raznor-obsidian.yaml
+# Author      : Raznor09
+# Repository  : https://github.com/Raznor09/raznor-obsidian
+# Description : A clean, all-black theme with blue accents.
+#
+# This file defines multiple theme variants using a single base.
+# An 'anchor' (&base_settings) defines all shared settings.
+# Afterwards, separate themes are created that inherit this base
+# and only override the accent colors and related settings.
+# =================================================================================
+
+# Dit blok bevat de interne instellingen en wordt niet als een thema getoond.
+_internal_settings:
   base_settings: &base_settings
-  # ============================
-  # BASE COLORS & BACKGROUNDS
-  # ============================
-  primary-background-color: rgb(10, 10, 10)
-  secondary-background-color: rgb(32, 33, 36)
-  divider-color: var(--primary-background-color)
-  
-  # Dialogs and Popups
-  dialog-backdrop-filter: blur(20px)
-  iron-overlay-backdrop-opacity: 1
-  iron-overlay-backdrop-background-color: rgba(0, 0, 0, 0.32)
+    # ============================
+    # BASE COLORS & BACKGROUNDS
+    # ============================
+    primary-background-color: rgb(10, 10, 10)
+    secondary-background-color: rgb(32, 33, 36)
+    divider-color: var(--primary-background-color)
 
-  # Header
-  app-header-background-color: rgb(10, 10, 10)
-  app-header-text-color: rgb(198, 203, 210)
-  app-header-edit-background-color: rgb(136, 136, 136)
+    # Dialogs and Popups
+    dialog-backdrop-filter: blur(20px)
+    iron-overlay-backdrop-opacity: 1
+    iron-overlay-backdrop-background-color: rgba(0, 0, 0, 0.32)
 
-  # Text
-  primary-text-color: rgb(242, 242, 242)
-  secondary-text-color: rgb(166, 166, 166)
-  text-primary-color: var(--primary-text-color)
-  disabled-text-color: rgba(184, 190, 199, 0.4)
-  rgb-primary-text-color: '242, 242, 242'
+    # Header
+    app-header-background-color: rgb(10, 10, 10)
+    app-header-text-color: rgb(198, 203, 210)
+    app-header-edit-background-color: rgb(136, 136, 136)
 
-  # ============================
-  # UI ELEMENTS
-  # ============================
-  # Sidebar Menu
-  sidebar-background-color: var(--primary-background-color)
-  sidebar-text-color: rgb(198, 203, 210)
-  sidebar-icon-color: rgb(169, 177, 188) # Inactive icons
+    # Text
+    primary-text-color: rgb(242, 242, 242)
+    secondary-text-color: rgb(166, 166, 166)
+    text-primary-color: var(--primary-text-color)
+    disabled-text-color: rgba(184, 190, 199, 0.4)
+    rgb-primary-text-color: '242, 242, 242'
 
-  # Buttons & Icons
-  paper-item-icon-color: rgb(169, 177, 188)
-  paper-item-icon-active-color: rgb(138, 180, 248) # Note: this is not dynamic in the base
-  mdc-button-outline-color: rgb(138, 180, 248) # Note: this is not dynamic in the base
+    # ============================
+    # UI ELEMENTS
+    # ============================
+    # Sidebar Menu
+    sidebar-background-color: var(--primary-background-color)
+    sidebar-text-color: rgb(198, 203, 210)
+    sidebar-icon-color: rgb(169, 177, 188) # Inactive icons
 
-  # Cards
-  card-background-color: rgba(32, 33, 36, 0.3)
-  ha-card-background: var(--card-background-color)
-  ha-card-border-color: rgba(42, 43, 46, 0.5)
-  paper-dialog-background-color: var(--card-background-color)
-  paper-listbox-background-color: var(--card-background-color)
-  paper-card-background-color: var(--card-background-color)
+    # Buttons & Icons
+    paper-item-icon-color: rgb(169, 177, 188)
+    paper-item-icon-active-color: rgb(138, 180, 248) # Note: this is not dynamic in the base
+    mdc-button-outline-color: rgb(138, 180, 248) # Note: this is not dynamic in the base
 
-  # Status Icons
-  state-icon-color: var(--paper-item-icon-color)
-  state-icon-unavailable-color: var(--disabled-text-color)
+    # Cards
+    card-background-color: rgba(32, 33, 36, 0.3)
+    ha-card-background: var(--card-background-color)
+    ha-card-border-color: rgba(42, 43, 46, 0.5)
+    paper-dialog-background-color: var(--card-background-color)
+    paper-listbox-background-color: var(--card-background-color)
+    paper-card-background-color: var(--card-background-color)
 
-  # ============================
-  # CONTROLS
-  # ============================
-  # Sliders (often overridden per theme)
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+    # Status Icons
+    state-icon-color: var(--paper-item-icon-color)
+    state-icon-unavailable-color: var(--disabled-text-color)
 
-  # Switches
-  switch-unchecked-button-color: rgb(172, 176, 185)
-  switch-unchecked-track-color: rgb(154, 160, 166)
-  
-  # Toggles
-  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
-  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
-  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
-  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+    # ============================
+    # CONTROLS
+    # ============================
+    # Sliders (often overridden per theme)
+    paper-slider-knob-start-color: var(--paper-slider-knob-color)
+    paper-slider-pin-color: var(--paper-slider-knob-color)
+    paper-slider-secondary-color: var(--light-primary-color)
 
-  # ============================
-  # MISCELLANEOUS
-  # ============================
-  # Tables
-  table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--secondary-background-color)
-  data-table-background-color: var(--primary-background-color)
+    # Switches
+    switch-unchecked-button-color: rgb(172, 176, 185)
+    switch-unchecked-track-color: rgb(154, 160, 166)
 
-  # Dropdowns & Input Fields
-  material-background-color: rgb(32, 33, 36)
-  material-secondary-background-color: rgb(42, 43, 46)
-  mdc-theme-surface: var(--secondary-background-color)
-  mdc-menu-background-color: rgb(32, 33, 36)
-  mdc-menu-surface: rgb(32, 33, 36)
-  ha-select-background-color: rgb(32, 33, 36)
-  mdc-select-fill-color: rgb(32, 33, 36)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--secondary-text-color)
-  mdc-select-idle-line-color: var(--primary-text-color)
-  mdc-select-dropdown-icon-color: var(--secondary-text-color)
-  mdc-select-hover-line-color: var(--accent-color)
-  mdc-select-selected-text-color: var(--accent-color)
-  input-fill-color: var(--secondary-background-color)
-  input-dropdown-icon-color: var(--secondary-text-color)
-  input-ink-color: var(--primary-text-color)
-  input-label-ink-color: var(--secondary-text-color)
-  input-idle-line-color: var(--primary-text-color)
-  input-hover-line-color: var(--accent-color)
-  
-  # Code blocks
-  markdown-code-background-color: rgb(10, 10, 10)
-  code-editor-background-color: rgb(10, 10, 10)
+    # Toggles
+    paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+    paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+    paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+    paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
 
-  # Checkboxes
-  mdc-checkbox-unchecked-color: rgb(169, 177, 188)
-  mdc-checkbox-disable-color: var(--disabled-text-color)
+    # ============================
+    # MISCELLANEOUS
+    # ============================
+    # Tables
+    table-row-background-color: var(--primary-background-color)
+    table-row-alternative-background-color: var(--secondary-background-color)
+    data-table-background-color: var(--primary-background-color)
+
+    # Dropdowns & Input Fields
+    material-background-color: rgb(32, 33, 36)
+    material-secondary-background-color: rgb(42, 43, 46)
+    mdc-theme-surface: var(--secondary-background-color)
+    mdc-menu-background-color: rgb(32, 33, 36)
+    mdc-menu-surface: rgb(32, 33, 36)
+    ha-select-background-color: rgb(32, 33, 36)
+    mdc-select-fill-color: rgb(32, 33, 36)
+    mdc-select-ink-color: var(--primary-text-color)
+    mdc-select-label-ink-color: var(--secondary-text-color)
+    mdc-select-idle-line-color: var(--primary-text-color)
+    mdc-select-dropdown-icon-color: var(--secondary-text-color)
+    mdc-select-hover-line-color: var(--accent-color)
+    mdc-select-selected-text-color: var(--accent-color)
+    input-fill-color: var(--secondary-background-color)
+    input-dropdown-icon-color: var(--secondary-text-color)
+    input-ink-color: var(--primary-text-color)
+    input-label-ink-color: var(--secondary-text-color)
+    input-idle-line-color: var(--primary-text-color)
+    input-hover-line-color: var(--accent-color)
+
+    # Code blocks
+    markdown-code-background-color: rgb(10, 10, 10)
+    code-editor-background-color: rgb(10, 10, 10)
+
+    # Checkboxes
+    mdc-checkbox-unchecked-color: rgb(169, 177, 188)
+    mdc-checkbox-disable-color: var(--disabled-text-color)
 
 # --- BLUE THEME ---
 Raznor Obsidian - Blue:
   # Inherit all settings from the base
-  <<: *base_settings
+  <<: *_internal_settings.base_settings
 
   # Color
   primary-color: rgb(83, 179, 255)
@@ -131,7 +133,7 @@ Raznor Obsidian - Blue:
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   state-icon-active-color: var(--primary-color)
-  
+
   # Controls
   paper-slider-knob-color: rgb(138, 180, 248)
   paper-slider-active-color: var(--paper-slider-knob-color)
@@ -142,7 +144,7 @@ Raznor Obsidian - Blue:
 # --- PURPLE THEME ---
 Raznor Obsidian - Purple:
   # Inherit all settings from the base
-  <<: *base_settings
+  <<: *_internal_settings.base_settings
 
   # Color
   primary-color: rgb(126, 26, 178)
@@ -155,9 +157,9 @@ Raznor Obsidian - Purple:
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   state-icon-active-color: var(--primary-color)
-  
+
   # Controls
-  paper-slider-knob-color: rgb(126, 100, 178) 
+  paper-slider-knob-color: rgb(126, 100, 178)
   paper-slider-active-color: var(--paper-slider-knob-color)
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
@@ -166,7 +168,7 @@ Raznor Obsidian - Purple:
 # --- GREEN THEME ---
 Raznor Obsidian - Green:
   # Inherit all settings from the base
-  <<: *base_settings
+  <<: *_internal_settings.base_settings
 
   # Color
   primary-color: rgb(26, 178, 26)
@@ -179,17 +181,17 @@ Raznor Obsidian - Green:
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   state-icon-active-color: var(--primary-color)
-  
+
   # Controls
   paper-slider-knob-color: rgb(126, 209, 126)
   paper-slider-active-color: var(--paper-slider-knob-color)
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
-  
+
   # --- RED THEME ---
 Raznor Obsidian - Red:
   # Inherit all settings from the base
-  <<: *base_settings
+  <<: *_internal_settings.base_settings
 
   # Color
   primary-color: rgb(278, 26, 26)
@@ -202,18 +204,18 @@ Raznor Obsidian - Red:
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   state-icon-active-color: var(--primary-color)
-  
+
   # Controls
   paper-slider-knob-color: rgb(178, 100, 100)
   paper-slider-active-color: var(--paper-slider-knob-color)
   switch-checked-button-color: var(--paper-slider-knob-color)
   switch-checked-track-color: var(--paper-slider-knob-color)
-  
+
   # --- Orange THEME ---
 Raznor Obsidian - Orange:
   # Inherit all settings from the base
-  <<: *base_settings
-  
+  <<: *_internal_settings.base_settings
+
   # Color
   primary-color: rgb(278, 178, 26)
   accent-color: var(--primary-color)
@@ -225,7 +227,7 @@ Raznor Obsidian - Orange:
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   state-icon-active-color: var(--primary-color)
-  
+
   # Controls
   paper-slider-knob-color: rgb(278, 200, 126)
   paper-slider-active-color: var(--paper-slider-knob-color)
