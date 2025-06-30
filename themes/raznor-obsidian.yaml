@@ -10,7 +10,7 @@
 # and only override the accent colors and related settings.
 # =================================================================================
 
-_internal_settings: &base_settings_anchor
+base_settings_anchor: &base_settings_anchor
   # ============================
   # BASE COLORS & BACKGROUNDS
   # ============================
