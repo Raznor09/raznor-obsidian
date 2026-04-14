@@ -5,7 +5,6 @@
 # Description : Clean Obsidian theme with full Dark & Light mode support (M3 Fix)
 # Version     : 1.1.0
 # =================================================================================
-
 raznor_base_settings: &raznor_base_settings_anchor
   primary-background-color: "rgb(10, 10, 10)"
   secondary-background-color: "rgb(26, 26, 26)"
