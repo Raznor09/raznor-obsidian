@@ -7,7 +7,8 @@
   <a href="https://coff.ee/raznor09" target="_blank"><img src="https://img.shields.io/badge/COFFEE-ffb21a?style=for-the-badge&label=BUY%20ME%20A" alt="Buy me a coffee"></a>
 </p>
   
-- A clean, all-black theme with multiple color variants, designed for a minimalist and modern look.
+- A clean, minimalist theme with multiple color variants, now fully optimized for **Home Assistant's Material Design 3 (M3)**.
+- This version supports both **Dark and Light modes** within a single theme file.
 - This single file provides several pre-configured color options, including 🔵Blue, 🟣Purple, 🟢Green, 🔴Red and 🟠Orange.
 
 ---
