@@ -4,15 +4,11 @@
 # Repository  : https://github.com/Raznor09/raznor-obsidian
 # Description : Clean Obsidian theme with full Dark & Light mode support
 # Version     : 1.1.0
-#
-# This file defines multiple theme variants using a single base.
-# Please note: 'raznor_base_settings' is NOT a selectable theme.
-# It exclusively contains the common base settings that are inherited
-# and used by the other theme variants.
 # =================================================================================
+
 raznor_base_settings: &raznor_base_settings_anchor
   # ============================================================================
-  # DEFAULT SETTINGS (DARK)
+  # DEFAULT SETTINGS (DARK FALLBACK)
   # ============================================================================
   primary-background-color: rgb(10, 10, 10)
   secondary-background-color: rgb(26, 26, 26)
@@ -30,7 +26,7 @@ raznor_base_settings: &raznor_base_settings_anchor
   paper-item-icon-color: rgb(169, 177, 188)
 
   modes:
-    # --- DARK MODE ---
+    # --- DARK MODE FIX (Material Design 3) ---
     dark:
       md-sys-color-surface: rgb(26, 26, 26)
       md-sys-color-on-surface: rgb(242, 242, 242)
@@ -58,19 +54,16 @@ raznor_base_settings: &raznor_base_settings_anchor
       md-sys-color-outline: rgb(100, 100, 100)
       md-sys-color-primary: var(--primary-color)
       
-      # Base Colors Light Override
       primary-background-color: rgb(245, 245, 245)
       secondary-background-color: rgb(255, 255, 255)
       divider-color: rgb(220, 220, 220)
       card-background-color: rgb(255, 255, 255)
       ha-card-background: var(--card-background-color)
       
-      # Text Light Override
       primary-text-color: rgb(10, 10, 10)
       secondary-text-color: rgb(80, 80, 80)
       text-primary-color: rgb(10, 10, 10)
 
-      # UI Elements Light Override
       sidebar-background-color: rgb(245, 245, 245)
       sidebar-text-color: rgb(10, 10, 10)
       sidebar-icon-color: rgb(80, 80, 80)
