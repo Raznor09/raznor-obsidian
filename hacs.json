@@ -1,5 +1,8 @@
 {
   "name": "Raznor Obsidian",
+  "render_readme": true,
   "content_in_root": false,
-  "render_readme": true
+  "zip_release": false,
+  "filename": "themes/raznor-obsidian.yaml",
+  "version": "1.1.0"
 }
