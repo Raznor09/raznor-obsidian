@@ -3,7 +3,7 @@
 # Author      : Raznor09
 # Repository  : https://github.com/Raznor09/raznor-obsidian
 # Description : Clean Obsidian theme with full Dark & Light mode support (M3 Fix)
-# Version     : 1.1.0
+# Version     : 1.1.1
 # =================================================================================
 raznor_base_settings: &raznor_base_settings_anchor
   primary-background-color: "rgb(10, 10, 10)"
