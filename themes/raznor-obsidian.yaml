@@ -7,114 +7,87 @@
 # =================================================================================
 
 raznor_base_settings: &raznor_base_settings_anchor
-  # ============================================================================
-  # DEFAULT SETTINGS (FALLBACK TO DARK)
-  # ============================================================================
-  primary-background-color: rgb(10, 10, 10)
-  secondary-background-color: rgb(26, 26, 26)
-  divider-color: var(--primary-background-color)
-  card-background-color: rgb(26, 26, 26)
-  ha-card-background: var(--card-background-color)
-  
-  primary-text-color: rgb(242, 242, 242)
-  secondary-text-color: rgb(166, 166, 166)
-  text-primary-color: rgb(242, 242, 242)
-  
-  sidebar-background-color: var(--primary-background-color)
-  sidebar-text-color: rgb(198, 203, 210)
-  sidebar-icon-color: rgb(169, 177, 188)
-  paper-item-icon-color: rgb(169, 177, 188)
+  primary-background-color: "rgb(10, 10, 10)"
+  secondary-background-color: "rgb(26, 26, 26)"
+  divider-color: "var(--primary-background-color)"
+  card-background-color: "rgb(26, 26, 26)"
+  ha-card-background: "var(--card-background-color)"
+  primary-text-color: "rgb(242, 242, 242)"
+  secondary-text-color: "rgb(166, 166, 166)"
+  text-primary-color: "rgb(242, 242, 242)"
+  sidebar-background-color: "var(--primary-background-color)"
+  sidebar-text-color: "rgb(198, 203, 210)"
+  sidebar-icon-color: "rgb(169, 177, 188)"
+  paper-item-icon-color: "rgb(169, 177, 188)"
 
   modes:
-    # --- DARK MODE (Material Design 3 Fix) ---
     dark:
-      md-sys-color-surface: rgb(26, 26, 26)
-      md-sys-color-on-surface: rgb(242, 242, 242)
-      md-sys-color-surface-container: rgb(26, 26, 26)
-      md-sys-color-surface-container-highest: rgb(26, 26, 26)
-      md-menu-container-color: rgb(26, 26, 26)
-      
-      # Selectie/Hover Fix (De witte vlek verwijderaar)
-      md-sys-color-secondary-container: rgb(50, 50, 50)
-      md-sys-color-on-secondary-container: var(--primary-color)
-      md-sys-color-primary: var(--primary-color)
-      
-      # UI Visibility
-      md-sys-color-outline: rgb(169, 177, 188)
-      md-sys-color-surface-tint: transparent
+      md-sys-color-surface: "rgb(26, 26, 26)"
+      md-sys-color-on-surface: "rgb(242, 242, 242)"
+      md-sys-color-surface-container: "rgb(26, 26, 26)"
+      md-sys-color-surface-container-highest: "rgb(26, 26, 26)"
+      md-menu-container-color: "rgb(26, 26, 26)"
+      md-sys-color-secondary-container: "rgb(50, 50, 50)"
+      md-sys-color-on-secondary-container: "var(--primary-color)"
+      md-sys-color-outline: "rgb(169, 177, 188)"
+      md-sys-color-primary: "var(--primary-color)"
+      md-sys-color-surface-tint: "transparent"
       md-sys-elevation-level1: "none"
       md-sys-elevation-level2: "none"
-      md-sys-color-shadow: transparent
+      md-sys-color-shadow: "transparent"
       md-ripple-focus-opacity: 0.0
       md-ripple-hover-opacity: 0.0
       md-list-item-hover-state-layer-opacity: 0.0
-
-      # Dropdowns Legacy
-      mdc-theme-surface: rgb(26, 26, 26)
-      paper-listbox-background-color: rgb(26, 26, 26) !important
-      paper-listbox-color: rgb(242, 242, 242) !important
-      
-      # Inputs
-      input-fill-color: rgb(26, 26, 26)
-      input-ink-color: var(--primary-text-color)
-      mdc-select-fill-color: rgb(26, 26, 26)
-      mdc-select-ink-color: rgb(242, 242, 242)
-
-    # --- LIGHT MODE ---
     light:
-      md-sys-color-surface: rgb(240, 240, 240)
-      md-sys-color-on-surface: rgb(10, 10, 10)
-      md-sys-color-surface-container: rgb(255, 255, 255)
-      md-sys-color-surface-container-highest: rgb(235, 235, 235)
-      md-menu-container-color: rgb(255, 255, 255)
-      md-sys-color-secondary-container: rgb(220, 220, 220)
-      md-sys-color-on-secondary-container: var(--primary-color)
-      md-sys-color-outline: rgb(100, 100, 100)
-      md-sys-color-primary: var(--primary-color)
-      
-      primary-background-color: rgb(245, 245, 245)
-      secondary-background-color: rgb(255, 255, 255)
-      divider-color: rgb(220, 220, 220)
-      card-background-color: rgb(255, 255, 255)
-      ha-card-background: var(--card-background-color)
-      
-      primary-text-color: rgb(10, 10, 10)
-      secondary-text-color: rgb(80, 80, 80)
-      text-primary-color: rgb(10, 10, 10)
-
-      sidebar-background-color: rgb(245, 245, 245)
-      sidebar-text-color: rgb(10, 10, 10)
-      sidebar-icon-color: rgb(80, 80, 80)
-      paper-item-icon-color: rgb(80, 80, 80)
+      md-sys-color-surface: "rgb(240, 240, 240)"
+      md-sys-color-on-surface: "rgb(10, 10, 10)"
+      md-sys-color-surface-container: "rgb(255, 255, 255)"
+      md-sys-color-surface-container-highest: "rgb(235, 235, 235)"
+      md-menu-container-color: "rgb(255, 255, 255)"
+      md-sys-color-secondary-container: "rgb(220, 220, 220)"
+      md-sys-color-on-secondary-container: "var(--primary-color)"
+      md-sys-color-outline: "rgb(100, 100, 100)"
+      md-sys-color-primary: "var(--primary-color)"
+      primary-background-color: "rgb(245, 245, 245)"
+      secondary-background-color: "rgb(255, 255, 255)"
+      divider-color: "rgb(220, 220, 220)"
+      card-background-color: "rgb(255, 255, 255)"
+      ha-card-background: "var(--card-background-color)"
+      primary-text-color: "rgb(10, 10, 10)"
+      secondary-text-color: "rgb(80, 80, 80)"
+      text-primary-color: "rgb(10, 10, 10)"
+      sidebar-background-color: "rgb(245, 245, 245)"
+      sidebar-text-color: "rgb(10, 10, 10)"
+      sidebar-icon-color: "rgb(80, 80, 80)"
+      paper-item-icon-color: "rgb(80, 80, 80)"
 
 # --- THEME VARIANTS ---
-
 Raznor Obsidian - Blue:
   <<: *raznor_base_settings_anchor
-  primary-color: rgb(83, 179, 255)
-  accent-color: var(--primary-color)
-  state-icon-active-color: var(--primary-color)
+  primary-color: "rgb(83, 179, 255)"
+  accent-color: "var(--primary-color)"
+  state-icon-active-color: "var(--primary-color)"
 
 Raznor Obsidian - Purple:
   <<: *raznor_base_settings_anchor
-  primary-color: rgb(126, 26, 178)
-  accent-color: var(--primary-color)
-  state-icon-active-color: var(--primary-color)
+  primary-color: "rgb(126, 26, 178)"
+  accent-color: "var(--primary-color)"
+  state-icon-active-color: "var(--primary-color)"
 
 Raznor Obsidian - Green:
   <<: *raznor_base_settings_anchor
-  primary-color: rgb(26, 178, 26)
-  accent-color: var(--primary-color)
-  state-icon-active-color: var(--primary-color)
+  primary-color: "rgb(26, 178, 26)"
+  accent-color: "var(--primary-color)"
+  state-icon-active-color: "var(--primary-color)"
 
 Raznor Obsidian - Red:
   <<: *raznor_base_settings_anchor
-  primary-color: rgb(255, 26, 26)
-  accent-color: var(--primary-color)
-  state-icon-active-color: var(--primary-color)
+  primary-color: "rgb(255, 26, 26)"
+  accent-color: "var(--primary-color)"
+  state-icon-active-color: "var(--primary-color)"
 
 Raznor Obsidian - Orange:
   <<: *raznor_base_settings_anchor
-  primary-color: rgb(255, 178, 26)
-  accent-color: var(--primary-color)
-  state-icon-active-color: var(--primary-color)
+  primary-color: "rgb(255, 178, 26)"
+  accent-color: "var(--primary-color)"
+  state-icon-active-color: "var(--primary-color)"
