@@ -26,7 +26,7 @@ Use this link to directly go to the repository in HACS and add it to your Home A
 <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Raznor09&repository=raznor-obsidian&category=theme" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open in HACS" /></a>
 
 <b>Selecting the Theme</b>
-Once installed, go to your Profile page and select your preferred color variant from the Theme dropdown. The available options are:
+-  Once installed, go to your Profile page and select your preferred color variant from the Theme dropdown. The available options are:
     * 🔵 `Raznor Obsidian -` <font color="#53B3FF">Blue</font>
     * 🟣 `Raznor Obsidian -` <font color="#7E1AB2">Purple</font>
     * 🟢 `Raznor Obsidian -` <font color="#1AB21A">Green</font>
