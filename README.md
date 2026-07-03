@@ -27,11 +27,11 @@ Use this link to directly go to the repository in HACS and add it to your Home A
 
 <b>Selecting the Theme</b>
 Once installed, go to your Profile page and select your preferred color variant from the Theme dropdown. The available options are:
-    🔵 `Raznor Obsidian -` <font color="#53B3FF">Blue</font>
-    🟣 `Raznor Obsidian -` <font color="#7E1AB2">Purple</font>
-    🟢 `Raznor Obsidian -` <font color="#1AB21A">Green</font>
-    🔴 `Raznor Obsidian -` <font color="#FF1A1A">Red</font>
-    🟠 `Raznor Obsidian -` <font color="#FFB21A">Orange</font>
+    * 🔵 `Raznor Obsidian -` <font color="#53B3FF">Blue</font>
+    * 🟣 `Raznor Obsidian -` <font color="#7E1AB2">Purple</font>
+    * 🟢 `Raznor Obsidian -` <font color="#1AB21A">Green</font>
+    * 🔴 `Raznor Obsidian -` <font color="#FF1A1A">Red</font>
+    * 🟠 `Raznor Obsidian -` <font color="#FFB21A">Orange</font>
 
 ---
 
