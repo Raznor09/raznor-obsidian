@@ -17,7 +17,26 @@
 
 To use this theme, you have two options: manual installation or installation via HACS.
 
-### Manual Installation
+### HACS (Recommended)
+
+Ensure you have [HACS](https://hacs.xyz/docs/use/).
+
+Use this link to directly go to the repository in HACS and add it to your Home Assistant:
+
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Raznor09&repository=raznor-obsidian&category=theme" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open in HACS" /></a>
+
+<b>Selecting the Theme</b>
+Once installed, go to your Profile page and select your preferred color variant from the Theme dropdown. The available options are:
+    🔵 `Raznor Obsidian -` <font color="#53B3FF">Blue</font>
+    🟣 `Raznor Obsidian -` <font color="#7E1AB2">Purple</font>
+    🟢 `Raznor Obsidian -` <font color="#1AB21A">Green</font>
+    🔴 `Raznor Obsidian -` <font color="#FF1A1A">Red</font>
+    🟠 `Raznor Obsidian -` <font color="#FFB21A">Orange</font>
+
+---
+
+<details>
+<summary><b>Manual Installation</b></summary>
 
 1.  **Create a `themes` folder:** In your Home Assistant `config` folder, create a new folder named `themes` if it doesn't already exist.
 2.  **Copy the file:** Place the `raznor-obsidian.yaml` file from this repository into that `themes` folder.
@@ -34,6 +53,7 @@ To use this theme, you have two options: manual installation or installation via
     * 🟢 `Raznor Obsidian -` <font color="#1AB21A">Green</font>
     * 🔴 `Raznor Obsidian -` <font color="#FF1A1A">Red</font>
     * 🟠 `Raznor Obsidian -` <font color="#FFB21A">Orange</font>
+</details>
 
 ---
 
@@ -47,12 +67,6 @@ To apply the selected Raznor Obsidian theme as the default for all devices acces
 4.  Under **Theme**, select your desired Raznor Obsidian theme (e.g., `Raznor Obsidian - Blue`).
 5.  The 'Mode' field is not required for this action.
 6.  Click on **Perform Action**.
-
----
-
-### Installation via HACS (Coming Soon)
-
-**This theme is not yet available in HACS.**
 
 ---
 
